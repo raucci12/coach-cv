@@ -1,0 +1,13 @@
+path: C:\Users\raucc\datasets\CoachCV_Directory\Data
+train: images\train
+val: images\val
+test: images\test
+
+names:
+  0: Barbell
+  1: Setting
+  2: Cleaning
+  3: Hold
+  4: Pressing
+  5: Complete
+  6: Release
