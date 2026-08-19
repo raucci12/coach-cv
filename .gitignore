@@ -7,6 +7,10 @@ Data/
 # "demos" folder) so this rule doesn't accidentally exclude them.
 videos/
 
+# Each project's isolated virtual environment -- never share these
+# between projects, and never commit them (they're machine-specific)
+venv/
+
 # Python
 __pycache__/
 *.pyc

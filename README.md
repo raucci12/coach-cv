@@ -32,12 +32,35 @@ through detected phases to the final coaching feedback.
 
 Requires Python 3.10-3.13.
 
+**If you're also trying my other projects (like the tennis prediction
+app) on the same machine, use an isolated virtual environment for each
+one** -- this repo and the tennis project have some overlapping-but-
+different dependency requirements (notably around numpy), and installing
+everything into one shared global Python environment can cause one
+project's setup to silently break another's. A virtual environment keeps
+each project's packages completely separate.
+
 ```bash
+git clone <this-repo-url>
+cd coach-cv
+
+python -m venv venv
+
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+
 pip install -r requirements.txt
 ```
 
+You'll know it worked if your terminal prompt now shows `(venv)` at the
+start of the line. From here on, run everything below from inside this
+activated environment. To leave it when you're done: `deactivate`.
+
 You'll also need [Ollama](https://ollama.com) installed and running
-locally, with a model pulled:
+locally (this is separate from the Python virtual environment, since it's
+its own application, not a Python package), with a model pulled:
 ```bash
 ollama pull llama3.2
 ```
