@@ -10,9 +10,7 @@ See `CoachCV Poster.pdf` for the original project overview.
 
 ## Demo
 
-<!-- TODO: paste your recorded video link here, e.g.:
-https://github.com/user-attachments/assets/your-video-id-here
--->
+[![CoachCV Demo](https://img.youtube.com/vi/RJXkDquNP8o/0.jpg)](https://youtu.be/RJXkDquNP8o)
 
 A short walkthrough analyzing a real Clean & Jerk video, from raw footage
 through detected phases to the final coaching feedback.
@@ -41,7 +39,7 @@ project's setup to silently break another's. A virtual environment keeps
 each project's packages completely separate.
 
 ```bash
-git clone https://github.com/raucci12/coach-cv
+git clone <this-repo-url>
 cd coach-cv
 
 python -m venv venv
