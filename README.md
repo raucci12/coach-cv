@@ -41,7 +41,7 @@ project's setup to silently break another's. A virtual environment keeps
 each project's packages completely separate.
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/raucci12/coach-cv
 cd coach-cv
 
 python -m venv venv
