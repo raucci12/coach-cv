@@ -8,9 +8,7 @@ using a locally-running LLM -- no API key, no cost.
 Originally built as a final project for an Augmented Intelligence course.
 See `CoachCV Poster.pdf` for the original project overview.
 
-## Demo
-
-[![CoachCV Demo](https://img.youtube.com/vi/RJXkDquNP8o/0.jpg)](https://youtu.be/RJXkDquNP8o)
+## 
 
 A short walkthrough analyzing a real Clean & Jerk video, from raw footage
 through detected phases to the final coaching feedback.
