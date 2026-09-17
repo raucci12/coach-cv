@@ -1,7 +1,4 @@
 # CoachCV
-
-# CoachCV
-
 A computer vision app that analyzes Olympic weightlifting Clean & Jerk videos, detects each lift phase (Setting, Cleaning, Hold, Pressing, Complete, Release), and generates natural-language coaching feedback using a locally-running LLM — no API key, no cost.
 
 Originally built as a final project for an Augmented Intelligence course. See `CoachCV Poster.pdf` for the original project overview.
